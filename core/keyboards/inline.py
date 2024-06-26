@@ -12,7 +12,7 @@ def get_channel_keyboard():
         for channel in channels:
             channel_inline_keyboard.button(text=f"{channel['name']}", url=f"{channel['link']}")
 
-    channel_inline_keyboard.button(text="Tasdiqlash✅", url='https://t.me/videos_savers_bot?start=start', callback_data=DeleteMessage(model='delete'))
+    channel_inline_keyboard.button(text="Tasdiqlash✅", url='https://t.me/Xudoyorxon_kitoblari_bot?start=start', callback_data=DeleteMessage(model='delete'))
     # channel_inline_keyboard.button(text="Tasdiqlash✔", callback_data=DeleteMessage(model='delete'))
     channel_inline_keyboard.adjust(1)
     return channel_inline_keyboard.as_markup()
